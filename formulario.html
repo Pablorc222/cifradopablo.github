@@ -1,0 +1,100 @@
+<html> 
+<head>
+<title> Introduccion </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<form method="post" action="index.html" target="_blank">
+<section class="form-register">
+<body>
+	<h1>Formulario registro</h1>
+
+		<table width="740" border="0" cellpadding="5">
+			<tr>
+				<td align="right" width="164">Teclee su <u>n</u>ombre:</td>
+				<td colspan="3">
+					<input type="text" name="nombreUsuario" id="nombreUsuario" size="20" maxlength="50" tabindex="1" accesskey="n" />
+				</td>
+				<td width="122" align="right">Teclee su clave:</td>
+				<td width="77"> 
+					<input type="password" name="clave" id="clave" size="10" maxlength="25" tabindex="2" accesskey="c" />
+				</td>
+			</tr>
+			<tr>
+				<td align="right" width="164">Opine sobre mi p&aacute;gina:</td>
+				<td rowspan="2" colspan="3"> 
+					<textarea name="opinion" id="opinion" cols="30" rows="5" wrap="virtual" tabindex="3" accesskey="o" />
+					</textarea>
+				</td>
+				<td rowspan="2" colspan="2">&nbsp;</td>
+			</tr>
+			<tr><td width="164">&nbsp;</td></tr>
+			<tr>
+				<td align="right" width="164">Mayor de edad:</td>
+				<td width="80">
+					<input type="checkbox" name="adulto" id="adulto" value="si" checked="checked" tabindex="4" accesskey="m" />
+				</td>
+				<td width="101" align="right">Sexo: Masculino</td>
+				<td width="115">
+					<input type="radio" name="sexo" id="sexoM" value="m" checked="checked" tabindex="5" accesskey="s" />
+				</td>
+			</tr>
+			<tr>
+				<td width="164">&nbsp;</td>
+				<td width="80">&nbsp;</td>
+				<td align="right" width="101">Femenino</td>
+				<td width="115">
+					<input type="radio" name="sexo" id="sexoF" value="f" tabindex="6" />
+				</td>
+				
+			</tr>
+			<tr>
+				<td align="right" height="7" width="164">Env&iacute;e un <u>f</u>ichero:</td>
+				<td height="7" colspan="3">
+					<input type="file" name="archivo" id="archivo" size="30" maxlength="100" tabindex="10" accesskey="f" />
+				</td>
+				<td colspan="2" height="7">&nbsp;</td>
+			</tr>
+			<tr>
+				<td align="right" rowspan="2" valign="top" width="164">Indique su <u>p</u>rovincia:</td>
+				<td width="80" rowspan="2" valign="top">
+					<select name="provincia" id="provincia" tabindex="11" accesskey="p">
+						<option value="1">Madrid</option>
+						<option value="2">Canarias</option>
+						<option value="3">Extremadura</option>
+						<option value="4">Andalucia</option>
+						<option value="5">Barcelona</option>
+						<option value="6">Otras</option>
+					</select>
+				</td>
+				<td width="101" align="right">Hobbies:</td>
+				<td width="115" rowspan="2">
+					<select name="pasatiempo" id="pasatiempo" size="3" multiple="multiple" tabindex="12" accesskey="h">
+						<option value="1">Futbol</option>
+						<option value="2">Tenis</option>
+						<option value="3">Padel</option>
+						<option value="4">Voleibol</option>
+						<option value="6">Otros</option>
+					</select>
+				</td>
+				<td colspan="2" rowspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td width="101">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<input type="submit" name="mandar" id="mandar" value="Enviar" tabindex="13" />
+				</td>
+				<td colspan="2">
+					<input type="reset" id="borrado" value="Borrar" tabindex="14" />
+				</td>
+			</tr>
+		</table>
+		<p><a href="formulario2.html">¿Ya tengo una cuenta?</a></p>
+		<input type="hidden" name="escondido" id="escondido" value="oculto" />
+	</form>
+</body>
+</html>
